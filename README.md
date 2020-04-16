@@ -1,6 +1,9 @@
-#Losowanie
+<h1> Losowanie </h1>
+
 <h4> Prosta aplikacja, przy pomócy której z łatwością można wylosować zwycięzcę w dowolnym konkursie. </h4>
-<hr>
+Plik .exe można pobrać z folderu 
+<i> "Wersja Stabilna" </i> 
+
 <b>
 Dostępne opcje:
 </b>
@@ -11,7 +14,7 @@ Dostępne opcje:
 * Usuwanie zaznaczonej osoby
 * Czyszczenie listy uczestników
 
-<hr>
+
 <h2> Widok z głownego okna aplikacji </h2>
 
 <p align="center">
