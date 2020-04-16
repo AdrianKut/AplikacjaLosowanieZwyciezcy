@@ -4,6 +4,8 @@
 Plik .exe można pobrać z folderu 
 <i> "Wersja Stabilna" </i> 
 
+<br>
+
 <b>
 Dostępne opcje:
 </b>
