@@ -1,17 +1,20 @@
 #Losowanie
-<h3> Prosta aplikacja, przy pomócy której z łatwością można wylosować zwycięzcę w dowolnym konkursie. </h3>
+<h4> Prosta aplikacja, przy pomócy której z łatwością można wylosować zwycięzcę w dowolnym konkursie. </h4>
 <hr>
+<b>
 Dostępne opcje:
+</b>
+
 * Pojedyncze dodawanie osoby
 * Otwieranie listy osób z pliku
 * Losowanie 1 zwycięzcy
 * Usuwanie zaznaczonej osoby
 * Czyszczenie listy uczestników
 
-Widok głównego okna aplikacji
 <hr>
+<h2> Widok z głownego okna aplikacji </h2>
+
 <p align="center">
   
 ![Image of application](https://i.imgur.com/WdpRe0k.png) 
-
 </p>
