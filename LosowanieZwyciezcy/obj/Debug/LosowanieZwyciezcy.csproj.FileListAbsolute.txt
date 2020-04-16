@@ -1,0 +1,12 @@
+C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\LosowanieZwyciezcy.csprojAssemblyReference.cache
+C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\LosowanieZwyciezcy.Form1.resources
+C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\LosowanieZwyciezcy.Properties.Resources.resources
+C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\LosowanieZwyciezcy.csproj.GenerateResource.cache
+C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\LosowanieZwyciezcy.csproj.CoreCompileInputs.cache
+C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\bin\Debug\WindowsBase.dll
+C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\LosowanieZwyciezcy.csproj.CopyComplete
+C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\bin\Debug\Losowanie Zwycięzcy.exe.config
+C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\bin\Debug\Losowanie Zwycięzcy.exe
+C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\bin\Debug\Losowanie Zwycięzcy.pdb
+C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\Losowanie Zwycięzcy.exe
+C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\Losowanie Zwycięzcy.pdb
