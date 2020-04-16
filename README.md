@@ -11,5 +11,7 @@ Dostępne opcje:
 Widok głównego okna aplikacji
 <hr>
 <p align="center">
+  
 ![Image of application](https://i.imgur.com/WdpRe0k.png) 
+
 </p>
