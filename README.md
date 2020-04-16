@@ -1,4 +1,4 @@
-<h1> Losowanie </h1>
+<h1> Losowanie Zwycięzcy v1.0.0 by Adrian K </h1>
 
 <h4> Prosta aplikacja, przy pomócy której z łatwością można wylosować zwycięzcę w dowolnym konkursie. 
 <br> Plik .exe można pobrać z folderu 
@@ -17,7 +17,7 @@ Dostępne opcje:
 * Czyszczenie listy uczestników
 
 
-<h2> Widok z głownego okna aplikacji </h2>
+<h2> Widok z głównego okna aplikacji </h2>
 
 <p align="center">
   
