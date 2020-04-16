@@ -1,9 +1,10 @@
 <h1> Losowanie </h1>
 
 <h4> Prosta aplikacja, przy pomócy której z łatwością można wylosować zwycięzcę w dowolnym konkursie. </h4>
-Plik .exe można pobrać z folderu 
-<i> "Wersja Stabilna" </i> 
+<h4> Plik .exe można pobrać z folderu 
+<i> "Wersja Stabilna" </i>  </h4>
 
+<br>
 <br>
 
 <b>
