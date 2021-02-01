@@ -44,6 +44,7 @@
             this.labelNumberOfPerson = new System.Windows.Forms.Label();
             this.labelWinnner = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.labelIcon = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -171,6 +172,7 @@
             this.flowLayoutPanel2.Controls.Add(this.textBoxPerson);
             this.flowLayoutPanel2.Controls.Add(this.buttonAddNewPerson);
             this.flowLayoutPanel2.Controls.Add(this.labelNumberOfPerson);
+            this.flowLayoutPanel2.Controls.Add(this.labelIcon);
             this.flowLayoutPanel2.Controls.Add(this.labelWinnner);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(204, 3);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
@@ -211,16 +213,26 @@
             this.labelWinnner.AutoSize = true;
             this.labelWinnner.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWinnner.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.labelWinnner.Location = new System.Drawing.Point(3, 89);
+            this.labelWinnner.Location = new System.Drawing.Point(173, 89);
             this.labelWinnner.Name = "labelWinnner";
-            this.labelWinnner.Size = new System.Drawing.Size(49, 30);
+            this.labelWinnner.Size = new System.Drawing.Size(0, 30);
             this.labelWinnner.TabIndex = 5;
-            this.labelWinnner.Text = " 🥇";
-            this.labelWinnner.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.labelWinnner.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // labelIcon
+            // 
+            this.labelIcon.AutoSize = true;
+            this.labelIcon.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelIcon.Font = new System.Drawing.Font("Segoe UI", 16F);
+            this.labelIcon.Location = new System.Drawing.Point(3, 89);
+            this.labelIcon.Name = "labelIcon";
+            this.labelIcon.Size = new System.Drawing.Size(164, 30);
+            this.labelIcon.TabIndex = 6;
+            this.labelIcon.Text = "🥇Zwycięzca:   ";
             // 
             // Form1
             // 
@@ -262,6 +274,7 @@
         private System.Windows.Forms.TextBox textBoxPerson;
         private System.Windows.Forms.Button buttonAddNewPerson;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelIcon;
     }
 }
 

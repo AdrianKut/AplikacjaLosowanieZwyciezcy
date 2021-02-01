@@ -10,3 +10,15 @@ C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\bin\Debug\Losowanie
 C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\bin\Debug\Losowanie Zwycięzcy.pdb
 C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\Losowanie Zwycięzcy.exe
 C:\Users\AiXen\Desktop\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\Losowanie Zwycięzcy.pdb
+K:\Programowanie\LosowanieZwyciezcy\LosowanieZwyciezcy\bin\Debug\Losowanie Zwycięzcy.exe.config
+K:\Programowanie\LosowanieZwyciezcy\LosowanieZwyciezcy\bin\Debug\Losowanie Zwycięzcy.exe
+K:\Programowanie\LosowanieZwyciezcy\LosowanieZwyciezcy\bin\Debug\Losowanie Zwycięzcy.pdb
+K:\Programowanie\LosowanieZwyciezcy\LosowanieZwyciezcy\bin\Debug\WindowsBase.dll
+K:\Programowanie\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\LosowanieZwyciezcy.csprojAssemblyReference.cache
+K:\Programowanie\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\LosowanieZwyciezcy.Form1.resources
+K:\Programowanie\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\LosowanieZwyciezcy.Properties.Resources.resources
+K:\Programowanie\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\LosowanieZwyciezcy.csproj.GenerateResource.cache
+K:\Programowanie\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\LosowanieZwyciezcy.csproj.CoreCompileInputs.cache
+K:\Programowanie\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\LosowanieZwyciezcy.csproj.CopyComplete
+K:\Programowanie\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\Losowanie Zwycięzcy.exe
+K:\Programowanie\LosowanieZwyciezcy\LosowanieZwyciezcy\obj\Debug\Losowanie Zwycięzcy.pdb

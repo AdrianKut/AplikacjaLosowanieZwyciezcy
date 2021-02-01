@@ -1,15 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Threading;
 using System.IO;
 using System.Media;
+using System.Threading;
+using System.Windows.Forms;
 
 namespace LosowanieZwyciezcy
 {
@@ -17,8 +10,9 @@ namespace LosowanieZwyciezcy
     {
         Random random = new Random();
         SoundPlayer snd = new SoundPlayer(Properties.Resources.winning);
-        private void changerLabelNumberOfPerson(){
-        labelNumberOfPerson.Text = "👥Liczba osób: " + listBoxMain.Items.Count;
+        private void changerLabelNumberOfPerson()
+        {
+            labelNumberOfPerson.Text = "👥Liczba osób: " + listBoxMain.Items.Count;
             if (listBoxMain.Items.Count == 0)
             {
                 buttonDraw.Enabled = false;
@@ -26,7 +20,6 @@ namespace LosowanieZwyciezcy
             else
             {
                 buttonDraw.Enabled = true;
-
             }
         }
 
@@ -36,20 +29,18 @@ namespace LosowanieZwyciezcy
             changerLabelNumberOfPerson();
         }
 
-
-
         private void buttonDraw_Click(object sender, EventArgs e)
         {
-                for (int i = 0; i < random.Next(10,40); i++)
-                        {
-                            listBoxMain.SetSelected(random.Next(listBoxMain.Items.Count), true);
-                            Thread.Sleep(250);                  
-                        }
+            for (int i = 0; i < random.Next(10, 40); i++)
+            {
+                listBoxMain.SetSelected(random.Next(listBoxMain.Items.Count), true);
+                Thread.Sleep(250);
+            }
             snd.Play();
-            labelWinnner.Text = "🥇Zwycięzca: " + listBoxMain.SelectedItem.ToString();
+            labelWinnner.Text = "" + listBoxMain.SelectedItem.ToString();
             Thread.Sleep(500);
-            DialogResult dialogResult = MessageBox.Show("\nZwyięzcą został: "+listBoxMain.SelectedItem.ToString() +"\n" +
-                "\nCzy chcesz go usunąć z listy?","BRAWO!!!",MessageBoxButtons.YesNo,MessageBoxIcon.Information);
+            DialogResult dialogResult = MessageBox.Show("\nZwyięzcą został: " + listBoxMain.SelectedItem.ToString() + "\n" +
+                "\nCzy chcesz go usunąć z listy?", "BRAWO!!!", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             switch (dialogResult)
             {
                 case DialogResult.Yes:
@@ -70,26 +61,19 @@ namespace LosowanieZwyciezcy
             openFileDialog1.Title = "Wybierz osoby";
             openFileDialog1.Filter = "Pliki tekstowe (*.txt)|*.txt|Wszystkie pliki (*.*)|*.*";
             openFileDialog1.ShowDialog();
-            if (openFileDialog1.FileName!="")
+            if (openFileDialog1.FileName != "")
             {
-            using (StreamReader sr = new StreamReader(openFileDialog1.FileName)) 
-            {
-                while (!sr.EndOfStream)
+                using (StreamReader sr = new StreamReader(openFileDialog1.FileName))
                 {
-                    listBoxMain.Items.Add(sr.ReadLine());
+                    while (!sr.EndOfStream)
+                    {
+                        listBoxMain.Items.Add(sr.ReadLine());
+                    }
                 }
-            }
             }
             changerLabelNumberOfPerson();
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            listBoxMain.Items.Add("XD");
-
-        }
-
 
         private void buttonClear_Click(object sender, EventArgs e)
         {
@@ -108,18 +92,19 @@ namespace LosowanieZwyciezcy
                 labelNumberOfPerson.Text = "Liczba osób: " + listBoxMain.Items.Count;
                 changerLabelNumberOfPerson();
             }
-            else{
-                MessageBox.Show("Wprowadź dane!","",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+            else
+            {
+                MessageBox.Show("Wprowadź dane!", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 changerLabelNumberOfPerson();
             }
-            
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             listBoxMain.Items.Remove(listBoxMain.SelectedItem);
             changerLabelNumberOfPerson();
-            
+
         }
 
         private void listBoxMain_KeyDown(object sender, KeyEventArgs e)
